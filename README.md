@@ -17,6 +17,7 @@ La plupart de mes projets vivent dans des organisations privées — fintech et 
 | Projet | Ce que c'est | Stack | État |
 |---|---|---|---|
 | **[LetMeBet](https://letmebet.io)** | Challenges de paris sportifs à capital virtuel : cotes multi-sports en temps réel (WebSocket), KYC, paiements, jokers. ~100 endpoints · 40 modèles de données · 250+ tests | Next.js · TypeScript · Prisma · PostgreSQL | **En production** — 150+ parieurs financés, 4,8/5 Trustpilot |
+| **[bemore.fans](https://bemore.fans)** | Plateforme d'abonnements pour créateurs : paiements récurrents (Epoch), KYC/âge Yoti, médias protégés (S3 signé), messagerie modérée, affiliation. 54 modèles · 80+ écrans · 430+ tests | Next.js · TypeScript · Prisma · AWS S3 | **En production** |
 | **Orion** | CRM SaaS multitenant qui alimente LetMeBet : campagnes email & in-app, séquences automatisées, paiements multi-prestataires à webhooks fiabilisés. 80 modèles · 440+ tests · SDK TypeScript publié | Next.js · Prisma · Stripe · Inngest | Production interne |
 | **Yoor** | App bancaire mobile pour les cartes prépayées PCS : pilotage de cartes, virements SEPA, KYC, biométrie, wallets Ethereum/Solana avec scoring AML. 60+ endpoints bancaires · 4 langues | React Native · Expo · TypeScript | Bêta |
 | **Module SCA** | Authentification forte (DSP2) pour l'écosystème PCS : challenges signés ECDSA P-256, biométrie, anti-rejeu, audit immuable, architecture hexagonale | PHP 8.4 · Symfony 7.4 · Terraform/GCP | En développement |
